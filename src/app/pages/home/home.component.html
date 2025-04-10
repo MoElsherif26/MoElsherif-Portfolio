@@ -1,4 +1,5 @@
-<section id="home" class="h-screen relative flex-col flex items-center justify-center">
+<section id="home"
+    class="h-screen relative flex-col flex items-center justify-center selection:bg-main-color selection:text-white">
     <div class="text-center">
 
         <h1 class="uppercase text-2xl md:text-4xl font-extrabold">Hey, I'm Mohamed Elsherif</h1>
@@ -10,12 +11,25 @@
                 overall product
             </p>
         </div>
+        <button class="uppercase me-3 mt-5 cursor-pointer
+         text-xl py-3 font-bold px-8 bg-main-color rounded-md text-white
+         hover:-translate-y-1 hover:shadow-lg hover:shadow-main-color/50 duration-300">
+            <a href="#projects">Projects</a>
+        </button>
         <button class="uppercase mt-5 cursor-pointer
          text-xl py-3 font-bold px-8 bg-main-color rounded-md text-white
          hover:-translate-y-1 hover:shadow-lg hover:shadow-main-color/50 duration-300">
-            Projects
+            <a target="_blank" rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1avodwTV_JcZXcECuB1zgl3_W8WdffQrs/view?usp=sharing">My CV</a>
         </button>
     </div>
+
+    <div class="home-hero__mouse-scroll-cont absolute bottom-0">
+        <div class="mouse">
+            <div class="mouse-in"></div>
+        </div>
+    </div>
+
     <ul
         class="social-icons flex mt-7 md:absolute md:start-0 md:block bg-white shadow-lg shadow-main-color/50 rounded-lg px-7 py-2 md:px-3 md:py-5">
         <li class="my-2 hover:translate-x-1 duration-300">
